@@ -1,0 +1,97 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn{
+    margin-top: 20px;
+    border-radius: 35px;
+    background-color: #3c948b;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 150px;
+}
+#table {
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+    width: 100%;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.card {
+    height: 400px;
+    background-color: #3c948b;
+    color: white;
+    width: 23%;
+
+
+
+}
+
+.img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.cardimage {
+    width: 100%;
+    height: 100%;
+}
+
+.rate {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.cardrate {
+    font-size: 20px;
+}
+.cardname{
+    font-size: 25px;
+}
+@media screen and (max-width: 576px){
+    .card{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .card{
+        width: 48%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .card{
+        width: 31%;
+    }
+}
